@@ -1,0 +1,6 @@
+---
+- name: import-GPG-KEY
+  ansible.builtin.shell: |
+    wget -q -O gpg.key https://rpm.grafana.com/gpg.key
+    rpm --import gpg.key
+

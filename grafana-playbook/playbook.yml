@@ -1,0 +1,8 @@
+---
+- name: playbook
+  hosts: all
+  remote_user: root
+
+  roles:
+   - role: lamp
+...
